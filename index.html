@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarjeta de red</title>
+    <link rel="shortcut icon" href="imagenes/favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="estilos/estilos.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="javaScript/javaScript.js"></script>
+  </head>
+  <body>
+    <a href="#hero"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+
+    <div id="container">
+      <nav>
+       <div class="topnav" id="myTopnav">
+            <a href="#hero" class="active">Inicio</a>
+            <a href="#intro">Introducción</a>
+            <a href="#tipos">Tipos y funcionamiento</a>
+            <a href="#instalacion">Instalación</a>
+            <a href="#contacta">Contacta</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+              <i class="fa fa-bars"></i>
+            </a>
+      </nav>
+      <section id="hero">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <h2>TARJETA DE RED</h2>
+      </section>
+    
+      <section id="intro">
+        <h2>INTRODUCCIÓN</h2>
+        <p>La tarjeta de red es un dispositivo electrónico que conecta a un ordenador u otros equipos a la red. En los ordenadores se hace por medio de un puerto RJ-45 (conocidos como socket 8p8C) que los conecta a una red de área local (LAN) o una red de área amplia (WAN). La red la podemos entender como un conjunto de equipos (nodos) y programas (software) conectados mediante unos dispositivos físicos o inalámbricos. Estos dispositivos envían y reciben impulsos eléctricos, ondas electromagnéticas o cualquier otro medio para la transmisión de datos. El objetivo es compartir información, recursos y ofrecer servicios. Por lo tanto, la tarjeta de red permite conectar nuestros dispositivos (ordenadores, servidores, móviles, etc.) a Internet.</p>
+      </section>
+
+      <section id="tipos">
+        <h2>TIPOS Y FUNCIONAMIENTO DE TARJETAS DE RED</h2>
+        <div class="grid4col">
+           <div class="col4">
+              <img src="imagenes/token_ring.jpg" alt="">
+              <p>La tarjeta de red Token Ring permite trabajar en una arquitectura, diseñada por IBM en los años 70, con una topología lógica en forma de anillo que utiliza el estándar IEEE 802.5.</p>
+              <button onclick="window.location.href='masinfo.html'">Leer más</button>
+           </div>
+           <div class="col4">
+            <img src="imagenes/arcnet.jpg" alt="">
+            <p>La tarjeta ARCNET permite trabajar en una arquitectura de red local que utiliza la técnica de paso de testigo como Token Ring, pero en este caso su topología tiene forma de estrella.</p>
+            <button onclick="window.location.href='masinfo.html'">Leer más</button>
+           </div>
+           <div class="col4">
+            <img src="imagenes/ethernet.jpg" alt="">
+            <p>Ethernet es una tecnología que permite que los dispositivos de redes de datos conectados por cable se comuniquen entre sí, vinculando el software y/o hardware.</p>
+            <button onclick="window.location.href='masinfo.html'">Leer más</button>
+           </div>
+           <div class="col4">
+            <img src="imagenes/wifi.jpg" alt="">
+            <p>Wifi es una tecnología que permite la interconexión inalámbrica de dispositivos.</p>
+            <button onclick="window.location.href='masinfo.html'">Leer más</button>
+           </div>
+        </div>
+      </section>
+
+      <section id="instalacion">
+        <h2>INSTALACION</h2>
+        <div class="grid2col">
+          <div class="col2" id="izqda">
+              <img src="imagenes/instalacion.jpg" alt="">
+          </div>
+          <div class="col2" id="dcha">  
+          Las tarjeta de red y wifi ya están integradas en la placa base. Sin embargo, es necesario mantenerlas actualizadas para tener un mejor rendimiento y la máxima compatibilidad posible, además, de conectarse con el nuevo protocolo WPA3 de seguridad Wifi.
+          En el siguiente enlace podrán conseguir paso a paso la actualización e <a href="https://www.redeszone.net/tutoriales/redes-cable/actualizar-tarjeta-red-ethernet-wifi-pc/" target="_blank">Instalación</a> de este tipo de tarjetas en windows 10.
+          </div>
+        </div>
+      </section>
+
+      <section id="contacta">
+      <footer  class="grid3col">
+           <!-- Contacto tradicional, dirección, teléfono, correo -->
+           <div class="col3">
+              <h3>Contáctanos:</h3>
+              <p>C/ Frederik Termann n 3<br>
+                 Incubadora de empresas<br>
+                 PTA - Málaga</p>
+              <p>Teléfono: 111 22 33 44</p>
+              <p>Email: yoquese@elmio.com</p>
+           </div>
+           <!-- enlaces de barra de navegación repetidos -->
+           <div class="col3">
+            <h3>Contenido:</h3>
+            <a href="#hero" class="active">Inicio</a><br>
+            <a href="#intro">Introducción</a><br>
+            <a href="#tipos">Tipos y funcionamiento</a><br>
+            <a href="#instalacion">Instalación</a><br>
+            <a href="#contacta">Contacta</a><br>
+           </div>
+           <!-- redes sociales -->
+           <div class="col3">
+            <h3>Redes Sociales:</h3>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+           </div>
+      </footer>
+      </section>
+    </div>
+  </body>
+</html>
